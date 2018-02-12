@@ -10,8 +10,8 @@ if __name__ == '__main__':
 
     logo = Logo()
 
-    content = 'pea6'
-    with open('./Workers/pea6.logo', 'r+') as f:
+    content = 'gea6'
+    with open('./Workers/gea6.logo', 'r+') as f:
         layout = f.read().split('\n')
     logo.set_layout(layout)
 

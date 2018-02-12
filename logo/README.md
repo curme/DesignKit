@@ -30,17 +30,17 @@ e.g. `worker.py`
 
 Set layout and color.  
 The program would use the layout you design.  
-e.g. `worker_pea6.py` & `pea6.logo`
+e.g. `worker_gea6.py` & `gea6.logo`
 
 	logo = Logo()
-	with open('./Workers/pea6.logo', 'r+') as f: 
+	with open('./Workers/gea6.logo', 'r+') as f: 
 		layout = f.read().split('\n')
 	logo.set_layout(layout)
 	logo.set_colors('Sea Blue')
 	img = logo.draw()
 	# example2.bmp
 	
-	>>> python ./Workers/worker_pea6.py
+	>>> python ./Workers/worker_gea6.py
 	
 >![example2.bmp](./Logos/example2.bmp)  
 > example2.bmp

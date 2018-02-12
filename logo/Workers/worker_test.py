@@ -31,7 +31,7 @@ if __name__ == '__main__':
 
 
     # example 2
-    with open('./Workers/pea6.logo', 'r+') as f:
+    with open('./Workers/gea6.logo', 'r+') as f:
         layout = f.read().split('\n')
     logo.set_layout(layout)
     logo.set_colors('Sea Blue')
