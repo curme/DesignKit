@@ -33,7 +33,7 @@ The program would use the layout you design.
 e.g. `worker_pea6.py` & `pea6.logo`
 
 	logo = Logo()
-	with open('./pea6.logo', 'r+') as f: 
+	with open('./Workers/pea6.logo', 'r+') as f: 
 		layout = f.read().split('\n')
 	logo.set_layout(layout)
 	logo.set_colors('Sea Blue')
