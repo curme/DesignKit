@@ -2,4 +2,4 @@
 kits for designer
 
 # Tools
-Letter Logo generator: used to generator letter logo. [_Here_](./logo/)
+Letter Logo generator: used to generate letter logo. [_Here_](./logo/)
